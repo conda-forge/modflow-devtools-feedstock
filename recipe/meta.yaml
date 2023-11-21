@@ -1,5 +1,5 @@
 {% set name = "modflow-devtools" %}
-{% set version = "1.2.0" %}
+{% set version = "1.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/modflow-devtools-{{ version }}.tar.gz
-  sha256: 6b8f11746d0f520411f9d9825b65892858d0e0e3f082c9cc40bd6006165237eb
+  sha256: d4aaa663b449a261413a4d62e41f89afd8abcef3a636107640db536e4b559e9d
 
 build:
   noarch: python
